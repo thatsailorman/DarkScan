@@ -1,8 +1,11 @@
 # DarkScan
 Command line tool (Windows) to _ping_ dark web domains using Curl. With this simple tool you can quickly & easily check if an *.onion (hidden tor service) domain is online or not.
 
+![Preview](https://github.com/thatsailorman/DarkScan/blob/master/DarkscanGIF.gif)
+
 Since we can't simply ping a TOR hidden service domain the normal way (like we would with any regular http website), we first need to connect to the TOR network, configure the TCP proxy port and then use CURL (instead of the ping command) to check if the website is up or not.
-And that's exactly what this command line tool does (out of the box).
+And that's exactly what this command line tool does (out of the box). :+1:
+
 
 ## DarkScan usage:
 Darkscan.exe TitleOfWebsite OnionDomain
@@ -15,6 +18,8 @@ Darkscan will then output the http status for the given *.onion domain.
 Output example:
 
 _**DuckDuckGo (https://3g2upl4pq6kufc4m.onion) is online - HTPP 200 status**_
+
+
 
 ## Downloads
 
@@ -46,4 +51,4 @@ A freeware BAT to EXE software tool, I recommend (and used): http://www.f2ko.de/
 
 
 ### License
-_**MIT**_. In other words: Do whatever you want with it. ;)
+_**MIT**_. In other words: Do whatever you want with it. :wink:
